@@ -1,0 +1,81 @@
+{
+    "image_id": "sample_007",
+    "classes": [
+        "agriculture",
+        "forest",
+        "barren"
+    ],
+    "regions": [
+        {
+            "class": "agriculture",
+            "polygon": [
+                [
+                    381,
+                    253
+                ],
+                [
+                    511,
+                    253
+                ],
+                [
+                    511,
+                    321
+                ],
+                [
+                    381,
+                    321
+                ]
+            ],
+            "area": 8840.0,
+            "confidence": 0.96
+        },
+        {
+            "class": "forest",
+            "polygon": [
+                [
+                    55,
+                    61
+                ],
+                [
+                    172,
+                    61
+                ],
+                [
+                    172,
+                    152
+                ],
+                [
+                    55,
+                    152
+                ]
+            ],
+            "area": 10647.0,
+            "confidence": 0.87
+        },
+        {
+            "class": "barren",
+            "polygon": [
+                [
+                    130,
+                    400
+                ],
+                [
+                    270,
+                    400
+                ],
+                [
+                    270,
+                    475
+                ],
+                [
+                    130,
+                    475
+                ]
+            ],
+            "area": 10500.0,
+            "confidence": 0.96
+        }
+    ],
+    "annotation_date": "2025-12-28",
+    "annotator": "RSK World"
+}

@@ -1,0 +1,22 @@
+{
+    "image_id": "sample_001",
+    "classes": ["water", "forest", "urban", "agriculture", "barren"],
+    "regions": [
+        {
+            "class": "urban",
+            "polygon": [[100, 100], [200, 100], [200, 200], [100, 200]],
+            "area": 10000.0
+        },
+        {
+            "class": "forest",
+            "polygon": [[300, 150], [450, 150], [450, 300], [300, 300]],
+            "area": 22500.0
+        },
+        {
+            "class": "water",
+            "polygon": [[50, 250], [150, 250], [150, 350], [50, 350]],
+            "area": 10000.0
+        }
+    ]
+}
+

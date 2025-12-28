@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Satellite Image Dataset Project
+        Created by: RSK World
+        Website: https://rskworld.in
+        Email: help@rskworld.in
+        Phone: +91 93305 39277
+        Description: High-resolution satellite imagery dataset with land cover classification
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satellite Image Dataset - RSK World</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #0d6efd;
+            --info-color: #0dcaf0;
+        }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .hero-section {
+            background: linear-gradient(135deg, rgba(13, 110, 253, 0.9) 0%, rgba(13, 202, 240, 0.9) 100%);
+            color: white;
+            padding: 80px 0;
+            margin-bottom: 50px;
+        }
+        .project-card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            padding: 30px;
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        .icon-large {
+            font-size: 4rem;
+            color: var(--info-color);
+            margin-bottom: 20px;
+        }
+        .tech-badge {
+            display: inline-block;
+            padding: 5px 15px;
+            margin: 5px;
+            background: #e7f3ff;
+            border-radius: 20px;
+            color: #0d6efd;
+            font-size: 0.9rem;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .feature-list li:last-child {
+            border-bottom: none;
+        }
+        .feature-list li i {
+            color: var(--info-color);
+            margin-right: 10px;
+        }
+        .difficulty-badge {
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+        }
+        .difficulty-advanced {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .footer {
+            background: rgba(0,0,0,0.8);
+            color: white;
+            padding: 30px 0;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Satellite Image Dataset Project
+        Created by: RSK World
+        Website: https://rskworld.in
+        Email: help@rskworld.in
+        Phone: +91 93305 39277
+    -->
+    <div class="hero-section text-center">
+        <div class="container">
+            <img src="./satellite-images.png" alt="Satellite Image Dataset - rskworld.in" class="img-fluid mb-4" style="max-width: 600px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+            <i class="fas fa-image icon-large"></i>
+            <h1 class="display-4 fw-bold mb-3">Satellite Image Dataset</h1>
+            <p class="lead">High-resolution satellite imagery with land cover classification, urban planning, and environmental monitoring labels</p>
+            <span class="difficulty-badge difficulty-advanced">Advanced</span>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                <div class="project-card">
+                    <div class="text-center mb-4">
+                        <img src="./satellite-images.png" alt="Satellite Image Dataset - rskworld.in" class="img-fluid rounded" style="max-width: 100%; box-shadow: 0 5px 15px rgba(0,0,0,0.2);">
+                    </div>
+                    <h2 class="mb-4"><i class="fas fa-info-circle text-info"></i> Project Overview</h2>
+                    <p class="lead">This dataset includes high-resolution satellite images with land cover classifications, building detection, and environmental monitoring labels. Perfect for remote sensing, urban planning, agriculture monitoring, and geospatial analysis.</p>
+                    
+                    <h3 class="mt-4 mb-3"><i class="fas fa-tags text-info"></i> Category</h3>
+                    <p><span class="badge bg-primary">Image Data</span></p>
+
+                    <h3 class="mt-4 mb-3"><i class="fas fa-code text-info"></i> Technologies</h3>
+                    <div>
+                        <span class="tech-badge">PNG</span>
+                        <span class="tech-badge">TIFF</span>
+                        <span class="tech-badge">GeoTIFF</span>
+                        <span class="tech-badge">NumPy</span>
+                        <span class="tech-badge">OpenCV</span>
+                        <span class="tech-badge">scikit-image</span>
+                        <span class="tech-badge">scikit-learn</span>
+                        <span class="tech-badge">Matplotlib</span>
+                        <span class="tech-badge">Seaborn</span>
+                        <span class="tech-badge">Rasterio</span>
+                        <span class="tech-badge">PIL/Pillow</span>
+                    </div>
+
+                    <h3 class="mt-4 mb-3"><i class="fas fa-star text-info"></i> Core Features</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> High-resolution images</li>
+                        <li><i class="fas fa-check-circle"></i> Land cover labels</li>
+                        <li><i class="fas fa-check-circle"></i> Building detection</li>
+                        <li><i class="fas fa-check-circle"></i> Multiple regions</li>
+                        <li><i class="fas fa-check-circle"></i> Geospatial metadata</li>
+                    </ul>
+
+                    <h3 class="mt-4 mb-3"><i class="fas fa-rocket text-info"></i> Advanced Features (NEW!)</h3>
+                    <ul class="feature-list">
+                        <li><i class="fas fa-check-circle"></i> <strong>Advanced Image Processing:</strong> Edge detection, segmentation, feature extraction (HOG, LBP, GLCM)</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Machine Learning Integration:</strong> Classification, object detection, change detection, NDVI extraction</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Real Image Downloading:</strong> Multiple sources (Planetary Computer, USGS, Copernicus)</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Advanced Visualization:</strong> 3D plots, statistical analysis, interactive dashboards</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Batch Processing:</strong> Parallel processing, data augmentation, export utilities</li>
+                        <li><i class="fas fa-check-circle"></i> <strong>Image Enhancement:</strong> CLAHE, histogram equalization, noise reduction</li>
+                    </ul>
+
+                    <h3 class="mt-4 mb-3"><i class="fas fa-download text-info"></i> Download</h3>
+                    <p>Download the complete dataset:</p>
+                    <a href="./satellite-images.zip" class="btn btn-primary btn-lg">
+                        <i class="fas fa-download"></i> Download Dataset
+                    </a>
+
+                    <h3 class="mt-4 mb-3"><i class="fas fa-book text-info"></i> Documentation</h3>
+                    <p>Complete documentation is available below. All information is embedded in this page for easy access.</p>
+                </div>
+
+                <div class="project-card">
+                    <h2 class="mb-4"><i class="fas fa-cog text-info"></i> Quick Start</h2>
+                    <h4>Installation</h4>
+                    <pre class="bg-light p-3 rounded"><code>pip install -r requirements.txt
+
+# For real image downloading (optional)
+pip install pystac-client planetary-computer</code></pre>
+                    
+                    <h4 class="mt-3">Basic Usage</h4>
+                    <pre class="bg-light p-3 rounded"><code>import numpy as np
+import cv2
+from pathlib import Path
+
+# Load satellite image
+image_path = Path('data/images/sample_001.png')
+image = cv2.imread(str(image_path))
+print(f"Image shape: {image.shape}")</code></pre>
+
+                    <h4 class="mt-3">Advanced Features Example</h4>
+                    <pre class="bg-light p-3 rounded"><code>from advanced_processing import AdvancedImageProcessor
+from ml_integration import SatelliteMLProcessor
+from enhanced_real_image_downloader import EnhancedRealImageDownloader
+
+# Advanced processing
+processor = AdvancedImageProcessor()
+edges = processor.detect_edges(image, method='canny')
+features = processor.extract_all_features(image)
+
+# ML integration
+ml = SatelliteMLProcessor()
+buildings = ml.detect_buildings_simple(image)
+ndvi = ml.extract_ndvi(image)
+
+# Download real images
+downloader = EnhancedRealImageDownloader()
+files = downloader.download_sample_real_images(num_images=10)</code></pre>
+
+                    <h4 class="mt-3">Run Complete Demo</h4>
+                    <pre class="bg-light p-3 rounded"><code>python advanced_example.py</code></pre>
+                </div>
+
+                <div class="project-card">
+                    <h2 class="mb-4"><i class="fas fa-tools text-info"></i> Advanced Modules</h2>
+                    
+                    <div class="mb-3">
+                        <h5><i class="fas fa-image text-info"></i> advanced_processing.py</h5>
+                        <p>Edge detection, segmentation, feature extraction (HOG, LBP, GLCM), image enhancement, noise reduction</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h5><i class="fas fa-brain text-info"></i> ml_integration.py</h5>
+                        <p>Machine learning features: classification, building detection, change detection, NDVI extraction, training utilities</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h5><i class="fas fa-download text-info"></i> enhanced_real_image_downloader.py</h5>
+                        <p>Download real satellite images from Planetary Computer, USGS EarthExplorer, and Copernicus Hub</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h5><i class="fas fa-chart-line text-info"></i> advanced_visualization.py</h5>
+                        <p>3D plots, statistical analysis, comparison views, time series visualization, interactive dashboards</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <h5><i class="fas fa-layer-group text-info"></i> batch_processing.py</h5>
+                        <p>Parallel batch processing, data augmentation (flip, rotate, brightness, contrast, noise), export utilities</p>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h2 class="mb-4"><i class="fas fa-book text-info"></i> Complete Documentation</h2>
+                    
+                    <div class="mb-4">
+                        <h4><i class="fas fa-info-circle text-info"></i> Project Overview</h4>
+                        <p>This satellite image dataset project provides comprehensive tools for working with satellite imagery, including:</p>
+                        <ul>
+                            <li><strong>Data Loading:</strong> Load images, labels, metadata, and building detections</li>
+                            <li><strong>Image Processing:</strong> Basic and advanced image processing capabilities</li>
+                            <li><strong>Machine Learning:</strong> Classification, detection, and feature extraction</li>
+                            <li><strong>Visualization:</strong> Statistical analysis, 3D plots, and interactive dashboards</li>
+                            <li><strong>Real Data:</strong> Download real satellite images from multiple sources</li>
+                        </ul>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4><i class="fas fa-rocket text-info"></i> Advanced Features Details</h4>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="fas fa-image"></i> Advanced Processing</h6>
+                                <ul class="small">
+                                    <li>Edge Detection (Canny, Sobel, Laplacian)</li>
+                                    <li>Image Segmentation (Watershed, SLIC)</li>
+                                    <li>Feature Extraction (HOG, LBP, GLCM)</li>
+                                    <li>Image Enhancement (CLAHE, Histogram EQ)</li>
+                                    <li>Noise Reduction (Bilateral, NLM)</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="fas fa-brain"></i> ML Integration</h6>
+                                <ul class="small">
+                                    <li>Land Cover Classification</li>
+                                    <li>Building Detection</li>
+                                    <li>Change Detection</li>
+                                    <li>NDVI Extraction</li>
+                                    <li>Training Dataset Creation</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="fas fa-download"></i> Real Image Download</h6>
+                                <ul class="small">
+                                    <li>Planetary Computer (No credentials)</li>
+                                    <li>USGS EarthExplorer (Landsat)</li>
+                                    <li>Copernicus Hub (Sentinel-2)</li>
+                                    <li>Multiple locations worldwide</li>
+                                    <li>Automatic metadata extraction</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <h6><i class="fas fa-chart-line"></i> Visualization</h6>
+                                <ul class="small">
+                                    <li>3D Surface Plots</li>
+                                    <li>Statistical Analysis</li>
+                                    <li>Comparison Views</li>
+                                    <li>Time Series Visualization</li>
+                                    <li>Interactive Dashboards</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4><i class="fas fa-exclamation-triangle text-warning"></i> Installation & Troubleshooting</h4>
+                        <div class="alert alert-info">
+                            <strong>Required Packages:</strong><br>
+                            <code>pip install numpy opencv-python matplotlib scikit-image scikit-learn scipy seaborn tqdm rasterio pillow</code>
+                        </div>
+                        <div class="alert alert-secondary">
+                            <strong>Optional (for real images):</strong><br>
+                            <code>pip install pystac-client planetary-computer</code>
+                        </div>
+                        <p><strong>Check Installation:</strong> Run <code>python check_errors.py</code> to verify all packages are installed correctly.</p>
+                    </div>
+
+                    <div class="mb-4">
+                        <h4><i class="fas fa-file-download text-info"></i> Download Real Images</h4>
+                        <p>To download real satellite images:</p>
+                        <pre class="bg-light p-3 rounded"><code>from enhanced_real_image_downloader import EnhancedRealImageDownloader
+
+downloader = EnhancedRealImageDownloader()
+files = downloader.download_sample_real_images(num_images=10)</code></pre>
+                        <p class="small">Note: Requires internet connection and optional packages (pystac-client, planetary-computer)</p>
+                    </div>
+
+                    <div class="alert alert-success">
+                        <h5><i class="fas fa-lightbulb"></i> Quick Tips</h5>
+                        <ul class="mb-0">
+                            <li>Run <code>python advanced_example.py</code> to see all features in action</li>
+                            <li>Check <code>data/images/</code> for sample images</li>
+                            <li>Use <code>python check_errors.py</code> to diagnose issues</li>
+                            <li>All modules include detailed docstrings and examples</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h2 class="mb-4"><i class="fas fa-check-circle text-info"></i> Error Checking</h2>
+                    <p>Run the error checker to verify your installation:</p>
+                    <pre class="bg-light p-3 rounded"><code>python check_errors.py</code></pre>
+                    <p class="mt-2">This will check for missing packages, syntax errors, and import issues.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center">
+        <div class="container">
+            <p class="mb-2">
+                <strong>Satellite Image Dataset</strong> - Created by <a href="https://rskworld.in" class="text-info">RSK World</a>
+            </p>
+            <p class="mb-0">
+                <i class="fas fa-envelope"></i> <a href="mailto:help@rskworld.in" class="text-info">help@rskworld.in</a> | 
+                <i class="fas fa-phone"></i> <a href="tel:+919330539277" class="text-info">+91 93305 39277</a>
+            </p>
+            <p class="mt-2 mb-0">
+                <small>&copy; 2024 RSK World. All rights reserved.</small>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

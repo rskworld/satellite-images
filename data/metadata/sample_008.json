@@ -1,0 +1,30 @@
+{
+    "image_id": "sample_008",
+    "crs": "EPSG:4326",
+    "bounds": {
+        "min_lon": -122.44,
+        "min_lat": 37.42,
+        "max_lon": -121.86,
+        "max_lat": 37.94
+    },
+    "resolution": 0.6,
+    "acquisition_date": "2025-11-29",
+    "sensor": "MODIS",
+    "bands": [
+        "red",
+        "green",
+        "blue",
+        "nir",
+        "swir1",
+        "swir2"
+    ],
+    "cloud_cover": 0.7,
+    "image_size": {
+        "width": 512,
+        "height": 512
+    },
+    "provider": "USGS",
+    "processing_level": "L2",
+    "created_by": "RSK World",
+    "website": "https://rskworld.in"
+}

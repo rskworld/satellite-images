@@ -1,0 +1,153 @@
+{
+    "image_id": "sample_001",
+    "classes": [
+        "barren",
+        "grassland",
+        "agriculture",
+        "urban",
+        "water",
+        "forest"
+    ],
+    "regions": [
+        {
+            "class": "barren",
+            "polygon": [
+                [
+                    162,
+                    395
+                ],
+                [
+                    225,
+                    395
+                ],
+                [
+                    225,
+                    447
+                ],
+                [
+                    162,
+                    447
+                ]
+            ],
+            "area": 3276.0,
+            "confidence": 0.88
+        },
+        {
+            "class": "grassland",
+            "polygon": [
+                [
+                    135,
+                    93
+                ],
+                [
+                    284,
+                    93
+                ],
+                [
+                    284,
+                    228
+                ],
+                [
+                    135,
+                    228
+                ]
+            ],
+            "area": 20115.0,
+            "confidence": 0.96
+        },
+        {
+            "class": "agriculture",
+            "polygon": [
+                [
+                    311,
+                    317
+                ],
+                [
+                    433,
+                    317
+                ],
+                [
+                    433,
+                    461
+                ],
+                [
+                    311,
+                    461
+                ]
+            ],
+            "area": 17568.0,
+            "confidence": 0.95
+        },
+        {
+            "class": "urban",
+            "polygon": [
+                [
+                    267,
+                    138
+                ],
+                [
+                    355,
+                    138
+                ],
+                [
+                    355,
+                    205
+                ],
+                [
+                    267,
+                    205
+                ]
+            ],
+            "area": 5896.0,
+            "confidence": 0.92
+        },
+        {
+            "class": "water",
+            "polygon": [
+                [
+                    180,
+                    293
+                ],
+                [
+                    319,
+                    293
+                ],
+                [
+                    319,
+                    394
+                ],
+                [
+                    180,
+                    394
+                ]
+            ],
+            "area": 14039.0,
+            "confidence": 0.87
+        },
+        {
+            "class": "forest",
+            "polygon": [
+                [
+                    57,
+                    245
+                ],
+                [
+                    196,
+                    245
+                ],
+                [
+                    196,
+                    349
+                ],
+                [
+                    57,
+                    349
+                ]
+            ],
+            "area": 14456.0,
+            "confidence": 0.9
+        }
+    ],
+    "annotation_date": "2025-12-28",
+    "annotator": "RSK World"
+}

@@ -1,0 +1,30 @@
+{
+    "image_id": "sample_009",
+    "crs": "EPSG:4326",
+    "bounds": {
+        "min_lon": -122.29,
+        "min_lat": 37.67,
+        "max_lon": -121.7,
+        "max_lat": 38.2
+    },
+    "resolution": 0.3,
+    "acquisition_date": "2025-11-30",
+    "sensor": "Landsat 9",
+    "bands": [
+        "red",
+        "green",
+        "blue",
+        "nir",
+        "swir1",
+        "swir2"
+    ],
+    "cloud_cover": 4.6,
+    "image_size": {
+        "width": 512,
+        "height": 512
+    },
+    "provider": "NASA",
+    "processing_level": "L2",
+    "created_by": "RSK World",
+    "website": "https://rskworld.in"
+}

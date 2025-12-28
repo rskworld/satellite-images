@@ -1,0 +1,30 @@
+{
+    "image_id": "sample_006",
+    "crs": "EPSG:4326",
+    "bounds": {
+        "min_lon": -122.4,
+        "min_lat": 37.46,
+        "max_lon": -122.0,
+        "max_lat": 37.83
+    },
+    "resolution": 0.5,
+    "acquisition_date": "2025-12-12",
+    "sensor": "MODIS",
+    "bands": [
+        "red",
+        "green",
+        "blue",
+        "nir",
+        "swir1",
+        "swir2"
+    ],
+    "cloud_cover": 1.7,
+    "image_size": {
+        "width": 512,
+        "height": 512
+    },
+    "provider": "NASA",
+    "processing_level": "L2",
+    "created_by": "RSK World",
+    "website": "https://rskworld.in"
+}

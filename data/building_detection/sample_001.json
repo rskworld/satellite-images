@@ -1,0 +1,86 @@
+{
+    "image_id": "sample_001",
+    "buildings": [
+        {
+            "id": "bld_001",
+            "bbox": [
+                412,
+                268,
+                31,
+                45
+            ],
+            "confidence": 0.86,
+            "area": 1395.0,
+            "type": "residential",
+            "height_estimate": 16.1
+        },
+        {
+            "id": "bld_002",
+            "bbox": [
+                453,
+                106,
+                41,
+                51
+            ],
+            "confidence": 0.92,
+            "area": 2091.0,
+            "type": "residential",
+            "height_estimate": 22.2
+        },
+        {
+            "id": "bld_003",
+            "bbox": [
+                142,
+                212,
+                58,
+                51
+            ],
+            "confidence": 0.89,
+            "area": 2958.0,
+            "type": "residential",
+            "height_estimate": 13.0
+        },
+        {
+            "id": "bld_004",
+            "bbox": [
+                466,
+                187,
+                32,
+                32
+            ],
+            "confidence": 0.92,
+            "area": 1024.0,
+            "type": "residential",
+            "height_estimate": 29.6
+        },
+        {
+            "id": "bld_005",
+            "bbox": [
+                290,
+                253,
+                56,
+                45
+            ],
+            "confidence": 0.93,
+            "area": 2520.0,
+            "type": "commercial",
+            "height_estimate": 23.2
+        },
+        {
+            "id": "bld_006",
+            "bbox": [
+                200,
+                398,
+                36,
+                50
+            ],
+            "confidence": 0.86,
+            "area": 1800.0,
+            "type": "industrial",
+            "height_estimate": 17.2
+        }
+    ],
+    "detection_date": "2025-12-28",
+    "model_version": "v1.0",
+    "total_buildings": 6
+}

@@ -1,0 +1,99 @@
+{
+    "image_id": "sample_009",
+    "buildings": [
+        {
+            "id": "bld_001",
+            "bbox": [
+                116,
+                239,
+                53,
+                53
+            ],
+            "confidence": 0.86,
+            "area": 2809.0,
+            "type": "commercial",
+            "height_estimate": 10.5
+        },
+        {
+            "id": "bld_002",
+            "bbox": [
+                328,
+                361,
+                39,
+                49
+            ],
+            "confidence": 0.86,
+            "area": 1911.0,
+            "type": "commercial",
+            "height_estimate": 14.7
+        },
+        {
+            "id": "bld_003",
+            "bbox": [
+                234,
+                158,
+                58,
+                46
+            ],
+            "confidence": 0.95,
+            "area": 2668.0,
+            "type": "industrial",
+            "height_estimate": 27.5
+        },
+        {
+            "id": "bld_004",
+            "bbox": [
+                465,
+                111,
+                47,
+                45
+            ],
+            "confidence": 0.89,
+            "area": 2115.0,
+            "type": "industrial",
+            "height_estimate": 28.4
+        },
+        {
+            "id": "bld_005",
+            "bbox": [
+                211,
+                271,
+                56,
+                37
+            ],
+            "confidence": 0.92,
+            "area": 2072.0,
+            "type": "commercial",
+            "height_estimate": 21.2
+        },
+        {
+            "id": "bld_006",
+            "bbox": [
+                332,
+                219,
+                44,
+                50
+            ],
+            "confidence": 0.92,
+            "area": 2200.0,
+            "type": "industrial",
+            "height_estimate": 29.6
+        },
+        {
+            "id": "bld_007",
+            "bbox": [
+                107,
+                153,
+                49,
+                54
+            ],
+            "confidence": 0.94,
+            "area": 2646.0,
+            "type": "industrial",
+            "height_estimate": 28.3
+        }
+    ],
+    "detection_date": "2025-12-28",
+    "model_version": "v1.0",
+    "total_buildings": 7
+}

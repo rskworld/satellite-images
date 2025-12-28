@@ -1,0 +1,33 @@
+{
+    "image_id": "sample_001",
+    "crs": "EPSG:4326",
+    "bounds": {
+        "min_lon": -122.53,
+        "min_lat": 37.72,
+        "max_lon": -122.16,
+        "max_lat": 38.08
+    },
+    "resolution": 0.4,
+    "acquisition_date": "2025-12-05",
+    "sensor": "Sentinel-2",
+    "bands": [
+        "red",
+        "green",
+        "blue",
+        "nir",
+        "red_edge_1",
+        "red_edge_2",
+        "red_edge_3",
+        "swir1",
+        "swir2"
+    ],
+    "cloud_cover": 3.4,
+    "image_size": {
+        "width": 512,
+        "height": 512
+    },
+    "provider": "USGS",
+    "processing_level": "L2A",
+    "created_by": "RSK World",
+    "website": "https://rskworld.in"
+}

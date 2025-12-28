@@ -1,0 +1,81 @@
+{
+    "image_id": "sample_003",
+    "classes": [
+        "urban",
+        "forest",
+        "grassland"
+    ],
+    "regions": [
+        {
+            "class": "urban",
+            "polygon": [
+                [
+                    103,
+                    371
+                ],
+                [
+                    219,
+                    371
+                ],
+                [
+                    219,
+                    430
+                ],
+                [
+                    103,
+                    430
+                ]
+            ],
+            "area": 6844.0,
+            "confidence": 0.93
+        },
+        {
+            "class": "forest",
+            "polygon": [
+                [
+                    232,
+                    172
+                ],
+                [
+                    305,
+                    172
+                ],
+                [
+                    305,
+                    228
+                ],
+                [
+                    232,
+                    228
+                ]
+            ],
+            "area": 4088.0,
+            "confidence": 0.87
+        },
+        {
+            "class": "grassland",
+            "polygon": [
+                [
+                    296,
+                    274
+                ],
+                [
+                    417,
+                    274
+                ],
+                [
+                    417,
+                    421
+                ],
+                [
+                    296,
+                    421
+                ]
+            ],
+            "area": 17787.0,
+            "confidence": 0.92
+        }
+    ],
+    "annotation_date": "2025-12-28",
+    "annotator": "RSK World"
+}

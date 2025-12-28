@@ -1,0 +1,105 @@
+{
+    "image_id": "sample_005",
+    "classes": [
+        "forest",
+        "barren",
+        "grassland",
+        "water"
+    ],
+    "regions": [
+        {
+            "class": "forest",
+            "polygon": [
+                [
+                    148,
+                    135
+                ],
+                [
+                    230,
+                    135
+                ],
+                [
+                    230,
+                    191
+                ],
+                [
+                    148,
+                    191
+                ]
+            ],
+            "area": 4592.0,
+            "confidence": 0.87
+        },
+        {
+            "class": "barren",
+            "polygon": [
+                [
+                    295,
+                    301
+                ],
+                [
+                    429,
+                    301
+                ],
+                [
+                    429,
+                    401
+                ],
+                [
+                    295,
+                    401
+                ]
+            ],
+            "area": 13400.0,
+            "confidence": 0.97
+        },
+        {
+            "class": "grassland",
+            "polygon": [
+                [
+                    113,
+                    255
+                ],
+                [
+                    225,
+                    255
+                ],
+                [
+                    225,
+                    377
+                ],
+                [
+                    113,
+                    377
+                ]
+            ],
+            "area": 13664.0,
+            "confidence": 0.88
+        },
+        {
+            "class": "water",
+            "polygon": [
+                [
+                    120,
+                    376
+                ],
+                [
+                    240,
+                    376
+                ],
+                [
+                    240,
+                    513
+                ],
+                [
+                    120,
+                    513
+                ]
+            ],
+            "area": 16440.0,
+            "confidence": 0.96
+        }
+    ],
+    "annotation_date": "2025-12-28",
+    "annotator": "RSK World"
+}

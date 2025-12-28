@@ -1,0 +1,21 @@
+{
+    "image_id": "sample_001",
+    "buildings": [
+        {
+            "bbox": [120, 120, 50, 50],
+            "confidence": 0.95,
+            "area": 2500.0
+        },
+        {
+            "bbox": [180, 150, 30, 40],
+            "confidence": 0.87,
+            "area": 1200.0
+        },
+        {
+            "bbox": [250, 200, 60, 45],
+            "confidence": 0.92,
+            "area": 2700.0
+        }
+    ]
+}
+
